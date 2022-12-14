@@ -182,7 +182,7 @@
 
                     <div class="d-flex justify-content-center p-3 py-5 border bg-white">
                         <div class="card border-0 text-center">
-                            <img src="{{asset('img/nopost.png')}}" class="card-img-top" alt="..." style="max-width: 330px">
+                            {{-- <img src="{{asset('img/nopost.png')}}" class="card-img-top" alt="..." style="max-width: 330px"> --}}
                             <div class="card-body ">
                                 <h3>No Post found</h3>
                                 <p class="card-text text-muted">We couldn't find any post, Try to follow someone</p>

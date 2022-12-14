@@ -56,9 +56,9 @@
         @empty
             <div class="col-12 d-flex justify-content-center text-muted">
                 <div class="card border-0 text-center bg-transparent" >
-                    <img src="{{asset('img/noimage.png')}}" class="card-img-top" alt="...">
+                    {{-- <img src="{{asset('img/noimage.png')}}" class="card-img-top" alt="..."> --}}
                     <div class="card-body ">
-                        <h1>No Posts Yet</h1>
+                        <h3>No Posts Yet</h3>
                     </div>
                 </div>
             </div>

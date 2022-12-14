@@ -26,7 +26,7 @@
         @else
             <div class="d-flex justify-content-center p-3 py-5 border bg-white">
                 <div class="card border-0 text-center" >
-                    <img src="{{asset('img/noresult.png')}}" class="card-img-top" alt="..." style="max-width: 330px">
+                    {{-- <img src="{{asset('img/noresult.png')}}" class="card-img-top" alt="..." style="max-width: 330px"> --}}
                     <div class="card-body ">
                         <h3>{{ $message }}</h3>
                         <p class="card-text text-muted">We couldn't find what you're looking for</p>
